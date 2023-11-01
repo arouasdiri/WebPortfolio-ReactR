@@ -1,0 +1,66 @@
+/* Lebenslauf.css */
+.container {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    font-family: 'Segoe UI', 'Roboto', sans-serif;
+}
+
+.header h1 {
+    font-size: 2.4em;
+    color: #5b7083;
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    font-size: 1em;
+    color: #6b6b6b;
+    line-height: 1.6;
+}
+
+.section {
+    margin-bottom: 35px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.section-title {
+    font-size: 1.7em;
+    font-weight: 600;
+    color: #333333;
+    margin-bottom: 15px;
+}
+
+.section p {
+    font-size: 1.05em;
+    line-height: 1.7;
+    color: #444444;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .header h1 {
+        font-size: 2em;
+    }
+
+    .section-title {
+        font-size: 1.5em;
+    }
+}
