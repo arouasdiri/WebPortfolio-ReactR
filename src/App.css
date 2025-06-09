@@ -1,0 +1,74 @@
+/* App.css */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f9f9f9;
+  color: #4a4a4a;
+  text-align: center;
+}
+
+.container {
+  padding: 20px;
+}
+
+header {
+  background-color: #ffecf1;
+  color: #d25a7c;
+  padding: 20px;
+  font-size: 1.5em;
+  border-bottom: 3px solid #f3c3d5;
+}
+
+nav a,
+.details-link a {
+  text-decoration: none;
+  color: #d25a7c;
+  font-weight: bold;
+  margin: 10px;
+}
+
+nav a:hover,
+.details-link a:hover {
+  color: #ad3a5f;
+}
+
+.main-content {
+  margin: 20px auto;
+  padding: 20px;
+  background: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  width: 80%;
+  max-width: 800px;
+}
+
+h1,
+h2,
+h3 {
+  color: #d25a7c;
+}
+
+p {
+  color: #4a4a4a;
+  font-size: 1em;
+  line-height: 1.6;
+
+}
+
+nav a {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 5px;
+  background-color: #6c757d;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+nav a:hover {
+  background-color: #5a6268;
+  transform: scale(1.05);
+}
